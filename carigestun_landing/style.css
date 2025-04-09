@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f7fb;
+  color: #333;
+}
+header {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.logo {
+  width: 80px;
+}
+nav a {
+  margin: 0 15px;
+  color: #333;
+  text-decoration: none;
+}
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+}
+.cta {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: white;
+  color: #0077cc;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.cta:hover {
+  background: #e1f5fe;
+}
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background: #fff;
+}
+.features div {
+  max-width: 250px;
+  text-align: center;
+}
+.form-section {
+  padding: 40px 20px;
+  background: #fefefe;
+  text-align: center;
+}
+form {
+  display: inline-block;
+  max-width: 400px;
+  width: 100%;
+}
+form input, form button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+form button {
+  background: #00c853;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+form button:hover {
+  background: #00b342;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #ececec;
+}
